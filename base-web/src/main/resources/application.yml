@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  liquibase:
+    change-log: classpath:/liquibase/master.xml
+    enabled: true
+  #启动配置
+  profiles:
+    active: @activeProfile@
+  #freemarker
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+
+# 数据库日志打印
+logging:
+  level:
+    com.gsean.dao: debug
+  config: classpath:logback/logback-@activeProfile@.xml
+
+#mybatis配置
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  #实体类包
+  type-aliases-package: com.gsean.entity
+  configuration:
+    map-underscore-to-camel-case: true

@@ -1,0 +1,13 @@
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/shiro/ShiroConfig.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/shiro/filter/JWTFilter.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/shiro/realm/ShiroRealm.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/swagger/SwaggerConfig.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/aop/LogAspect.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/BaseWebApplication.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/mvc/WebMvcConfig.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/controller/LoginController.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/redis/RedisConfig.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/global/GlobleExceptionConfig.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/config/redis/RedisClient.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/controller/TestController.java
+/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/src/main/java/com/gsean/controller/UserController.java

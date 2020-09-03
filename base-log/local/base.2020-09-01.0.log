@@ -1,0 +1,412 @@
+2020-09-01 10:26:14,286 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 10:26:50,794 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 35171 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 10:26:50,800 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 10:26:51,601 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 10:26:52,820 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 10:26:53,128 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 10:26:54,356 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 10:26:54,356 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 10:26:54,357 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 10:26:54,357 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 10:26:57,538 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 27.429 seconds (JVM running for 32.956)
+2020-09-01 10:27:11,425 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 10:27:11,427 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 10:27:11,429 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 10:27:11,477 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["login"]
+2020-09-01 10:27:11,478 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [53ms]
+2020-09-01 10:27:11,478 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 10:27:20,405 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 10:27:20,406 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 10:27:20,406 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456, {}]
+2020-09-01 10:27:20,412 WARN [http-nio-8081-exec-3] c.g.config.shiro.realm.ShiroRealm [ShiroRealm.java : 71] 开始认证用户admin------doGetAuthenticationInfo
+2020-09-01 10:27:20,468 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["index"]
+2020-09-01 10:27:20,469 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [64ms]
+2020-09-01 10:27:20,469 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 10:29:26,615 WARN [http-nio-8081-exec-8] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 10:29:26,617 INFO [http-nio-8081-exec-8] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 10:29:26,617 INFO [http-nio-8081-exec-8] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 10:29:26,617 INFO [http-nio-8081-exec-8] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["login"]
+2020-09-01 10:29:26,618 INFO [http-nio-8081-exec-8] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [3ms]
+2020-09-01 10:29:26,618 WARN [http-nio-8081-exec-8] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 10:29:32,539 WARN [http-nio-8081-exec-9] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 10:29:32,540 INFO [http-nio-8081-exec-9] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 10:29:32,540 INFO [http-nio-8081-exec-9] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 121231, {}]
+2020-09-01 10:29:32,541 WARN [http-nio-8081-exec-9] c.g.config.shiro.realm.ShiroRealm [ShiroRealm.java : 71] 开始认证用户admin------doGetAuthenticationInfo
+2020-09-01 10:29:32,543 ERROR [http-nio-8081-exec-9] com.gsean.service.LoginService [LoginService.java : 50] 账户不存在或密码错误
+2020-09-01 10:29:32,543 INFO [http-nio-8081-exec-9] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["login"]
+2020-09-01 10:29:32,544 INFO [http-nio-8081-exec-9] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [5ms]
+2020-09-01 10:29:32,544 WARN [http-nio-8081-exec-9] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 10:52:18,836 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 10:52:48,381 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 35258 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 10:52:48,386 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 10:52:49,065 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 10:52:50,616 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 10:52:50,902 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 10:52:52,328 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 10:52:52,329 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 10:52:52,330 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 10:52:52,330 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 10:52:56,085 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 28.269 seconds (JVM running for 34.028)
+2020-09-01 10:53:42,426 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 13:46:43,135 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 35624 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 13:46:43,142 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 13:46:43,941 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 13:46:45,512 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 13:46:45,789 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 13:46:47,333 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 13:46:47,334 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 13:46:47,335 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 13:46:47,335 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 13:46:51,370 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 29.142 seconds (JVM running for 34.89)
+2020-09-01 13:48:54,374 WARN [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 13:48:54,381 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 13:48:54,389 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 13:49:14,692 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMjU3NDQsInVzZXJuYW1lIjoiYWRtaW4ifQ.-WRgDtbZnMjnhRctxid5o1kIUN_rc9bIp9dW6os2Mr8","ok":true}]
+2020-09-01 13:49:14,694 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [20320ms]
+2020-09-01 13:49:14,694 WARN [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 13:52:06,970 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 13:52:06,975 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 13:52:06,976 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 13:52:28,672 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMjU5NDgsInVzZXJuYW1lIjoiYWRtaW4ifQ.ya6gi8FK2aWQ9sl9MjkJhfXh3S4b3e9PeD5mJPOYFe4","ok":true}]
+2020-09-01 13:52:28,674 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [21704ms]
+2020-09-01 13:52:28,675 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 13:52:28,800 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 13:53:00,500 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 35681 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 13:53:00,506 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 13:53:01,202 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 13:53:02,417 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 13:53:02,679 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 13:53:04,087 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 13:53:04,088 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 13:53:04,089 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 13:53:04,089 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 13:53:10,738 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 30.834 seconds (JVM running for 36.528)
+2020-09-01 13:55:09,557 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 13:55:09,563 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 13:55:09,572 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 13:55:19,731 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMjYxMTMsInVzZXJuYW1lIjoiYWRtaW4ifQ.fBigwA-JDppHv3_O7DnwX9uip3N6ekKXvqJ8MF6v66M","ok":true}]
+2020-09-01 13:55:19,732 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [10176ms]
+2020-09-01 13:55:19,732 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 14:42:56,010 INFO [main] com.gsean.RedisClientTest [StartupInfoLogger.java : 55] Starting RedisClientTest on guochengdeMacBook-Pro.local with PID 36188 (started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 14:42:56,022 INFO [main] com.gsean.RedisClientTest [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 14:42:57,223 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 14:42:59,083 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 14:42:59,455 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 14:43:01,638 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 14:43:01,640 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 14:43:01,640 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 14:43:01,641 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 14:43:05,506 INFO [main] com.gsean.RedisClientTest [StartupInfoLogger.java : 61] Started RedisClientTest in 32.591 seconds (JVM running for 34.386)
+2020-09-01 14:43:05,994 INFO [main] io.lettuce.core.EpollProvider [EpollProvider.java : 68] Starting without optional epoll library
+2020-09-01 14:43:05,996 INFO [main] io.lettuce.core.KqueueProvider [KqueueProvider.java : 70] Starting without optional kqueue library
+2020-09-01 14:43:11,235 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 14:43:37,919 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 15:24:38,218 INFO [main] com.gsean.RedisClientTest [StartupInfoLogger.java : 55] Starting RedisClientTest on guochengdeMacBook-Pro.local with PID 36637 (started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 15:24:38,223 INFO [main] com.gsean.RedisClientTest [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 15:24:39,628 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 15:24:42,426 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 15:24:43,090 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 15:24:46,665 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 15:24:46,668 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 15:24:46,669 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 15:24:46,670 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 15:25:22,359 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 36650 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 15:25:22,363 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 15:25:23,000 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 15:25:24,308 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 15:25:24,579 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 15:25:25,717 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 15:25:25,717 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 15:25:25,718 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 15:25:25,718 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 15:25:29,133 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 27.291 seconds (JVM running for 33.118)
+2020-09-01 15:25:51,880 WARN [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:25:51,883 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:25:51,885 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:25:51,891 INFO [http-nio-8081-exec-1] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:25:51,956 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:25:51,957 INFO [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [77ms]
+2020-09-01 15:25:51,957 WARN [http-nio-8081-exec-1] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:31:04,458 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 15:31:36,223 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 36678 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 15:31:36,228 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 15:31:36,873 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 15:31:38,168 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 15:31:38,450 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 15:31:39,633 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 15:31:39,634 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 15:31:39,634 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 15:31:39,634 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 15:31:42,926 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 27.207 seconds (JVM running for 32.713)
+2020-09-01 15:31:57,405 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:31:57,407 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 15:31:57,408 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 15:31:57,488 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMzE5MTcsInVzZXJuYW1lIjoiYWRtaW4ifQ.-eNDrQqowZZxolaxpkjA6D9gwTzZMDThDAaX30Brc-I","ok":true}]
+2020-09-01 15:31:57,488 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [83ms]
+2020-09-01 15:31:57,489 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:37:26,941 ERROR [http-nio-8081-exec-9] o.a.c.c.C.[.[.[.[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [org.apache.shiro.authc.pam.UnsupportedTokenException: Realm [com.gsean.config.shiro.realm.ShiroRealm@42634fda] does not support authentication token [com.gsean.domain.JWTToken@55dc202b].  Please ensure that the appropriate Realm implementation is configured correctly or that the realm accepts AuthenticationTokens of this type.] with root cause
+org.apache.shiro.authc.pam.UnsupportedTokenException: Realm [com.gsean.config.shiro.realm.ShiroRealm@42634fda] does not support authentication token [com.gsean.domain.JWTToken@55dc202b].  Please ensure that the appropriate Realm implementation is configured correctly or that the realm accepts AuthenticationTokens of this type.
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:178)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at com.gsean.config.shiro.filter.JWTFilter.executeLogin(JWTFilter.java:70)
+	at org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter.onAccessDenied(BasicHttpAuthenticationFilter.java:245)
+	at org.apache.shiro.web.filter.AccessControlFilter.onAccessDenied(AccessControlFilter.java:133)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at com.gsean.config.shiro.filter.JWTFilter.preHandle(JWTFilter.java:90)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-01 15:40:33,902 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 15:41:04,521 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 36714 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 15:41:04,527 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 15:41:05,175 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 15:41:06,389 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 15:41:06,676 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 15:41:09,251 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 15:41:09,253 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 15:41:09,255 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 15:41:09,256 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 15:41:13,225 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 29.211 seconds (JVM running for 34.73)
+2020-09-01 15:41:30,016 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:41:30,018 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:41:30,019 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:41:30,022 INFO [http-nio-8081-exec-2] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:41:30,023 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:41:30,023 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [7ms]
+2020-09-01 15:41:30,023 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:41:43,895 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:41:43,896 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 15:41:43,896 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 15:41:43,920 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMzI1MDMsInVzZXJuYW1lIjoiYWRtaW4ifQ.Frl6JU8Dkuj0G_-fTouzbUTsLxBbfrIcvuqIyshID0Y","ok":true}]
+2020-09-01 15:41:43,920 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [25ms]
+2020-09-01 15:41:43,921 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:41:46,975 WARN [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:41:46,975 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 15:41:46,976 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 15:41:46,977 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMzI1MDYsInVzZXJuYW1lIjoiYWRtaW4ifQ.Z7JKQAHY3gdh43kBBqd9O_xnf7KRQVS-D_T-6IRpx18","ok":true}]
+2020-09-01 15:41:46,978 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [3ms]
+2020-09-01 15:41:46,978 WARN [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:41:49,744 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:41:49,745 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 15:41:49,745 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 15:41:49,746 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTkwMzI1MDksInVzZXJuYW1lIjoiYWRtaW4ifQ.ubw1rPLBlsaWaQpHlDk6lYcDrCEPT3yKNsgkTMetMAw","ok":true}]
+2020-09-01 15:41:49,747 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [3ms]
+2020-09-01 15:41:49,747 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:41:59,464 WARN [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:41:59,465 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:41:59,465 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:41:59,465 INFO [http-nio-8081-exec-6] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:41:59,466 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:41:59,466 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [2ms]
+2020-09-01 15:41:59,466 WARN [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:49:17,763 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 15:49:47,248 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 36791 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 15:49:47,252 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 15:49:47,907 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 15:49:49,323 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 15:49:49,634 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 15:49:51,014 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 15:49:51,015 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 15:49:51,016 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 15:49:51,016 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 15:49:54,245 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 27.723 seconds (JVM running for 33.267)
+2020-09-01 15:52:13,705 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:52:13,708 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 15:52:13,710 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 15:52:13,824 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTg5NDY3OTMsInVzZXJuYW1lIjoiYWRtaW4ifQ.3nkzGd-TGuHI-RrBORJQatrvo9HFVEq3WzDpumOFvxE","ok":true}]
+2020-09-01 15:52:13,825 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [120ms]
+2020-09-01 15:52:13,825 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:52:21,859 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:52:21,860 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:52:21,860 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:52:21,863 INFO [http-nio-8081-exec-3] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:52:21,863 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:52:21,864 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [5ms]
+2020-09-01 15:52:21,864 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:52:24,124 WARN [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:52:24,125 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:52:24,125 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:52:24,125 INFO [http-nio-8081-exec-4] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:52:24,125 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:52:24,126 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [2ms]
+2020-09-01 15:52:24,126 WARN [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:52:27,788 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:52:27,789 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:52:27,790 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:52:27,790 INFO [http-nio-8081-exec-5] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:52:27,790 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:52:27,791 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [3ms]
+2020-09-01 15:52:27,791 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 15:52:35,939 WARN [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 15:52:35,940 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 15:52:35,940 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 15:52:35,941 INFO [http-nio-8081-exec-6] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 15:52:35,941 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 15:52:35,941 INFO [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [2ms]
+2020-09-01 15:52:35,942 WARN [http-nio-8081-exec-6] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 17:11:21,434 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 17:11:57,127 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 43865 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 17:11:57,133 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 17:11:57,884 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 17:11:59,369 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 17:11:59,657 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 17:12:00,975 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 17:12:00,976 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 17:12:00,977 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 17:12:00,978 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 17:12:04,412 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 27.833 seconds (JVM running for 33.373)
+2020-09-01 17:12:47,869 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 17:12:47,872 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 17:12:47,875 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[admin, 123456]
+2020-09-01 17:12:47,949 DEBUG [http-nio-8081-exec-3] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT `id`,`name`,`email`,`password`,`is_deleted` FROM `t_user` WHERE `name` = ? AND `is_deleted` = ? 
+2020-09-01 17:12:47,974 DEBUG [http-nio-8081-exec-3] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), false(Boolean)
+2020-09-01 17:12:47,989 DEBUG [http-nio-8081-exec-3] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] <==      Total: 0
+2020-09-01 17:12:48,064 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":1002,"message":"用户名密码错误","ok":false}]
+2020-09-01 17:12:48,064 INFO [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [195ms]
+2020-09-01 17:12:48,064 WARN [http-nio-8081-exec-3] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 17:14:12,463 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 17:14:12,468 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 17:14:12,469 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[gsean, 123456]
+2020-09-01 17:14:12,505 DEBUG [http-nio-8081-exec-5] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT `id`,`name`,`email`,`password`,`is_deleted` FROM `t_user` WHERE `name` = ? AND `is_deleted` = ? 
+2020-09-01 17:14:12,508 DEBUG [http-nio-8081-exec-5] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] ==> Parameters: gsean(String), false(Boolean)
+2020-09-01 17:14:12,526 DEBUG [http-nio-8081-exec-5] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] <==      Total: 1
+2020-09-01 17:14:12,614 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTg5NTE3MTIsInVzZXJuYW1lIjoiZ3NlYW4ifQ.ANqDfVv-D6DeOGVDPARAICDf43jQkDfWUfupIO-JxSo","ok":true}]
+2020-09-01 17:14:12,615 INFO [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [153ms]
+2020-09-01 17:14:12,615 WARN [http-nio-8081-exec-5] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 17:32:06,322 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 17:32:37,743 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 44122 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 17:32:37,747 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 17:32:38,486 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 17:32:40,011 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 17:32:40,308 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 17:32:41,660 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 17:32:41,661 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 17:32:41,661 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 17:32:41,662 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 17:32:45,476 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 28.498 seconds (JVM running for 34.098)
+2020-09-01 17:52:35,306 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 17:53:08,331 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 44248 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 17:53:08,335 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 17:53:09,395 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 17:53:10,987 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 17:53:11,318 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 17:53:13,084 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 17:53:13,085 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 17:53:13,085 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 17:53:13,086 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 17:53:47,144 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 59.509 seconds (JVM running for 65.081)
+2020-09-01 18:00:24,972 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 18:00:56,345 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 44310 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 18:00:56,351 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 18:00:56,973 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 18:00:58,197 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 18:00:58,461 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 18:00:59,626 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 18:00:59,627 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 18:00:59,628 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 18:00:59,628 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 18:01:33,519 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 57.663 seconds (JVM running for 63.149)
+2020-09-01 18:01:41,812 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 18:02:11,667 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 44318 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 18:02:11,673 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 18:02:12,302 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 18:02:13,524 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 18:02:13,796 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 18:02:14,995 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 18:02:14,996 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 18:02:14,996 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 18:02:14,997 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 18:02:48,322 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 57.153 seconds (JVM running for 62.659)
+2020-09-01 18:03:00,184 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 18:03:00,186 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/login]
+2020-09-01 18:03:00,188 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[gsean, 123456, com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@7850f3c4]
+2020-09-01 18:03:00,260 DEBUG [http-nio-8081-exec-2] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT `id`,`name`,`email`,`password`,`is_deleted` FROM `t_user` WHERE `name` = ? AND `is_deleted` = ? 
+2020-09-01 18:03:00,281 DEBUG [http-nio-8081-exec-2] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] ==> Parameters: gsean(String), false(Boolean)
+2020-09-01 18:03:00,297 DEBUG [http-nio-8081-exec-2] com.gsean.dao.TUserMapper.selectOne [BaseJdbcLogger.java : 159] <==      Total: 1
+2020-09-01 18:03:00,423 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:[{"code":0,"message":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTg5NTUxODAsInVzZXJuYW1lIjoiZ3NlYW4ifQ.zLdGe_vqZEMrKVE1tSLNbLmiF2XytoRRafWLBClD39Y","ok":true}]
+2020-09-01 18:03:00,423 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [240ms]
+2020-09-01 18:03:00,424 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 18:03:42,137 WARN [http-nio-8081-exec-4] c.g.config.shiro.realm.ShiroRealm [ShiroRealm.java : 74] ----------开始身份认证------------
+2020-09-01 18:03:42,175 WARN [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 18:03:42,176 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 18:03:42,176 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 18:03:42,178 INFO [http-nio-8081-exec-4] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 18:03:42,178 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 18:03:42,178 INFO [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [3ms]
+2020-09-01 18:03:42,179 WARN [http-nio-8081-exec-4] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 18:03:49,981 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 18:04:19,559 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 44326 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 18:04:19,565 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 18:04:20,193 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 18:04:21,392 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 18:04:21,660 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 18:04:22,829 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 18:04:22,830 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 18:04:22,830 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 18:04:22,830 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 18:04:56,015 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 56.944 seconds (JVM running for 62.435)
+2020-09-01 18:05:00,518 WARN [http-nio-8081-exec-2] c.g.config.shiro.realm.ShiroRealm [ShiroRealm.java : 74] ----------开始身份认证------------
+2020-09-01 18:05:00,613 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 47] ==========请求开始===========
+2020-09-01 18:05:00,614 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 48] 本次RequestMapping:[/test]
+2020-09-01 18:05:00,615 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 60] RequestParam:[]
+2020-09-01 18:05:00,619 INFO [http-nio-8081-exec-2] com.gsean.controller.TestController [TestController.java : 25] sdfsdf
+2020-09-01 18:05:00,620 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 70] Response:["test"]
+2020-09-01 18:05:00,620 INFO [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 72] Request spend times : [7ms]
+2020-09-01 18:05:00,620 WARN [http-nio-8081-exec-2] com.gsean.config.aop.LogAspect [LogAspect.java : 73] ===========请求结束============
+2020-09-01 18:39:18,231 INFO [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1825] {dataSource-1} closed
+2020-09-01 18:39:49,594 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 55] Starting BaseWebApplication on guochengdeMacBook-Pro.local with PID 44630 (/Users/guocheng/IdeaProjects/springboot/sys_admin_backend/base-web/target/classes started by guocheng in /Users/guocheng/IdeaProjects/springboot/sys_admin_backend)
+2020-09-01 18:39:49,599 INFO [main] com.gsean.BaseWebApplication [SpringApplication.java : 655] The following profiles are active: local
+2020-09-01 18:39:50,353 WARN [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 166] No MyBatis mapper was found in '[com.gsean]' package. Please check your configuration.
+2020-09-01 18:39:51,829 INFO [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2020-09-01 18:39:52,123 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 930] {dataSource-1} inited
+2020-09-01 18:39:53,422 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-01 18:39:53,422 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-01 18:39:53,423 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 60] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-01 18:39:53,423 INFO [main] t.m.m.a.MapperCacheDisabler [MapperCacheDisabler.java : 83] Clear EntityHelper entityTableMap cache.
+2020-09-01 18:40:27,317 INFO [main] com.gsean.BaseWebApplication [StartupInfoLogger.java : 61] Started BaseWebApplication in 58.301 seconds (JVM running for 63.832)
