@@ -4,7 +4,20 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/db_base?serverTimezone=GMT&useSSL=true
+    url: jdbc:mysql://rm-bp16b3nes0360iq0uwo.mysql.rds.aliyuncs.com/db_base?serverTimezone=GMT&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: 123456
+    username: gsean_mysql
+    password: 19950411gsean!@#
+
+
+shiro:
+  web:
+    enable: true
+
+config:
+  #jwt认证加密私钥
+  encrypt-jwtKey: U0JBUElOENhspJrzkyNjQ1NA
+  #accessToken过期时间（秒）
+  accessToken-expireTime: 600
+  #refreshToken过期时间（秒）
+  refreshToken-expireTime: 604800

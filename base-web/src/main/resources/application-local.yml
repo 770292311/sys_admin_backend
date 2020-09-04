@@ -25,7 +25,7 @@ spring:
 
 shiro:
   web:
-    enable: false
+    enable: true
 
 config:
   #jwt认证加密私钥
